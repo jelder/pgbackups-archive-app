@@ -1,0 +1,13 @@
+{
+    "name": "pgbackups-archive",
+    "description": "Automates archival of Heroku PGBackups to S3",
+    "website": "https://github.com/kjohnston/pgbackups-archive",
+    "repository": "https://github.com/jelder/pgbackups-archive",
+    "keywords": [
+        "pgbackups postgres backup"
+    ],
+    "env": {
+        "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-ruby"
+    },
+    "generator": "https://www.expeditedssl.com/heroku-button-maker"
+}
